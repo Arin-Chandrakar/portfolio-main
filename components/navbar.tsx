@@ -1,7 +1,4 @@
 "use client"
-
-import {motion} from "motion/react"
-// import { motion } from "motion/react-client"
 import { useState } from "react"
 
 
@@ -11,7 +8,7 @@ export function Navbar(){
 
 
     return(
-        <nav className="sticky top-0 z-50 flex max-w-6xl mx-5 mt-8 py-3 px-4 items-center justify-between  text-amber-50 backdrop-blur-xs ">
+        <nav className="sticky top-0 z-50 flex w-full mx-auto mt-8 py-3 px-4 justify-between  text-amber-50 backdrop-blur-xs ">
             <div className="flex items-center gap-x-6">
                 <div>
                 <a href="/" className="">Home</a>

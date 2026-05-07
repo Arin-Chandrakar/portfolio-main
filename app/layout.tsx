@@ -22,10 +22,23 @@ export default function RootLayout({
       
       <body className={`${geistSans.variable} ${geistMono.variable} ${arimo.variable} ${nic.variable} ${roboto.variable}`}>
         <SmoothScroll>
-        <div className="dark:bg-black border-r border-l border-white/20 border-dotted container min-h-full flex flex-col relative max-w-4xl mx-auto">
-          <Navbar/>
+        <div className="dark:bg-black border-r border-l border-white/20 border-dotted container min-h-dvh flex flex-col relative max-w-4xl mx-auto">
+        <Navbar/>
+        <div className="bg-yellow-300 w-[90%] mx-auto min-h-full mb-5">
+        </div>
           {children}
         </div>
+        <footer className="dark:bg-black  mx-auto max-w-4xl x-auto h-20 flex items-center border-r border-l border-white/20 border-dotted pt-20 pb-30">
+          <div className="flex w-[95%] pt-5 border-t border-white/40 mx-auto justify-between ">
+              <div className="">
+                <p className="font-arimo text-sm opacity-70">Developed by <b>Arin</b></p>
+                <p className="font-arimo text-xs opacity-50">©2026. All rights reserved.</p>
+              </div>
+              <div className="font-arimo text-sm opacity-70">
+                Raipur, India
+              </div>
+          </div>
+        </footer>
         </SmoothScroll>
       </body>
     </html>

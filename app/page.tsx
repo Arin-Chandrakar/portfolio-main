@@ -75,15 +75,13 @@ export default function Home() {
       Hi there gang
       Hi there gang
       Hi there gang
-
       Hi there gang
       Hi there gang
       Hi there gang
       Hi there gang
       Hi there gang
       Hi there gang
-      Hi there gang
-
+      Hi there gang      
       Hi there gang
       Hi there gang
       Hi there gang

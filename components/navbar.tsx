@@ -42,7 +42,7 @@ export function Navbar(){
                 <button onClick={()=>{setDark(!dark)}}
                     className=""
                 >
-                    <img src={dark ? "/sun.png":"/night.png"} width={15} height={15} alt="" />
+                    <img src={dark ? "/sun.png":"/night.png" } width={15} height={15} className={`${!dark===true ? "":"invert-100"} `} alt="" />
                 </button>
             </div>
         </nav>

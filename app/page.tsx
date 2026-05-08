@@ -1,10 +1,11 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <div className="">
         <div className="relative w-full">
-                 <img src="/Hanuman.png" className="w-full" alt="" />
+                 {/* <img src="/Hanuman.png" className="w-full" alt="" /> */}
+                 <video src="/caseycom.mp4" className="w-full object-cover" preload="auto" autoPlay loop muted playsInline/>
                  <div className="absolute top-0 left-0 h-5 w-full bg-linear-to-b from-black to-transparent "/>
                  <div className="absolute bottom-0 left-0 h-5 w-full bg-linear-to-t from-black to-transparent "/>
             <div className="absolute md:left-14 md:top-75 left-7 top-32 flex gap-5 sm:gap-10 items-center" >

@@ -1,0 +1,16 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   app/page.tsx
+#	modified:   components/navbar.tsx
+#	new file:   public/logos/github.svg
+#	new file:   public/logos/linkedin.svg
+#	new file:   public/logos/medium.svg
+#	new file:   public/logos/x.svg
+#	new file:   public/verified.svg
+#

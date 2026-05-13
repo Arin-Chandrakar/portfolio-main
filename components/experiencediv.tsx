@@ -17,13 +17,13 @@ export default function Collapsibleexpdiv({ compname , role , duration , image ,
     const [open,setOpen]  = useState(false);
     return(
         <div className="flex flex-col">
-            <button className=" flex justify-between border-b-2 border-amber-50/50" onClick={()=>setOpen(!open)}>
+            <button className=" flex justify-between hover:bg-amber-50/10 transition-colors duration-300 rounded-xl" onClick={()=>setOpen(!open)}>
                 <div className="flex gap-2 p-2">
                     <img src={`/${image}`} className="w-10 h-10" alt="" />
-                    <h2 className="text-xs sm:text-2xl">{compname}</h2>
-                    <h2 className=" text-xs sm:text-2xl opacity-70"> / {role}</h2>
+                    <h2 className="text-sm sm:text-2xl pt-3 sm:pt-1">{compname}</h2>
+                    <h2 className=" text-sm sm:text-2xl opacity-70 pt-3 sm:pt-1"> / {role}</h2>
                 </div>
-                <div className="flex gap-2 p-2">
+                <div className="flex gap-2 p-3 text-sm pt-5 sm:pt-4">
                     {duration}
                 </div>
             </button>
@@ -39,8 +39,8 @@ export default function Collapsibleexpdiv({ compname , role , duration , image ,
                     className="overflow-hidden "
                     >
                         {tasks.map((item)=>(
-                            <ul key={item} className="list-disc pl-6">
-                                <li>{item}</li>
+                            <ul key={item} className="list-disc pl-6 pt-1 whitespace-normal">
+                                <li className="whitespace-normal">{item}</li>
                             </ul>
                         ))}
                         

@@ -1,5 +1,6 @@
 import Collapsibleexpdiv from "@/components/experiencediv";
 import { experience } from "@/info/experience";
+import DividerComp from "@/components/divider";
 
 export default function Home() {
   return (
@@ -55,13 +56,24 @@ export default function Home() {
           <p className="opacity-80">I like learning, whatever it may be. I love building, books and fc barcelona. I can build full products from frontend to the backend. Doing it for the love of the game.</p>
         </div> 
 
-        <div className="max-w-3xl mx-auto  px-3 sm:px-0">
+        {/* Work Experience */}
+        <div className="max-w-3xl mx-auto  px-3 sm:px-0 pb-3 sm:pb-5 border-b border-amber-50/20 ">
           <h1 className="font-arimo font-bold sm:text-2xl tracking-wide pb-4">Work Experience</h1>
           {experience.map((experience)=>(
             <Collapsibleexpdiv key={experience.id}
             {...experience}/>
           ))}
         </div>
+
+        {/* Divider */}
+        <DividerComp/>
+
+        {/* Projects */}
+        <div className="max-w-3xl mx-auto px-3 sm:px-0 pb-3 pt-8 sm:pb-5 border-b border-amber-50/20">
+          <h1 className="font-arimo font-bold sm:text-2xl tracking-wide pb-4">Projects</h1>
+        </div>
+        
+        
         
 
 

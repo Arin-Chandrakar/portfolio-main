@@ -17,8 +17,8 @@ export default function Collapsibleexpdiv({ compname , role , duration , image ,
     const [open,setOpen]  = useState(false);
     return(
         <div className="flex flex-col">
-            <button className=" flex justify-between hover:bg-amber-50/10 transition-colors duration-300 rounded-xl" onClick={()=>setOpen(!open)}>
-                <div className="flex gap-2 p-2">
+            <button className=" flex justify-between hover:bg-amber-50/10 transition-colors duration-300 rounded-xl " onClick={()=>setOpen(!open)}>
+                <div className="flex gap-2 p-2 ">
                     <img src={`/${image}`} className="w-10 h-10" alt="" />
                     <h2 className="text-sm sm:text-2xl pt-3 sm:pt-1">{compname}</h2>
                     <h2 className=" text-sm sm:text-2xl opacity-70 pt-3 sm:pt-1"> / {role}</h2>

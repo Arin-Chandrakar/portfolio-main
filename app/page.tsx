@@ -1,6 +1,8 @@
 import Collapsibleexpdiv from "@/components/experiencediv";
 import { experience } from "@/info/experience";
+import {projects} from "@/info/projects"
 import DividerComp from "@/components/divider";
+import ProjectsCard from "@/components/projects";
 
 export default function Home() {
   return (
@@ -71,6 +73,7 @@ export default function Home() {
         {/* Projects */}
         <div className="max-w-3xl mx-auto px-3 sm:px-0 pb-3 pt-8 sm:pb-5 border-b border-amber-50/20">
           <h1 className="font-arimo font-bold sm:text-2xl tracking-wide pb-4">Projects</h1>
+          {Projects.ts}
         </div>
         
         

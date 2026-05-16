@@ -6,7 +6,7 @@ export const projects=[
     livelink:"www.google.com",
     githublink:"www.google.com",
     techused:["typescript" , "bun" , "flush","typescript" , "bun" , "flush","typescript" , "bun" , "flush", "typescript" , "bun" , "flush"],
-    image:"/Hanuman.png"
+    image:"Hanuman.png"
     },
     {
     id:2,
@@ -15,7 +15,7 @@ export const projects=[
     livelink:"www.google.com",
     githublink:"www.google.com",
     techused:["typescript" , "bun" , "flush","typescript" , "bun" , "flush","typescript" , "bun" , "flush", "typescript" , "bun" , "flush"],
-    image:"/Hanuman.png"
+    image:"Hanuman.png"
     },
     {
     id:3,
@@ -24,6 +24,24 @@ export const projects=[
     livelink:"www.google.com",
     githublink:"www.google.com",
     techused:["typescript" , "bun" , "flush","typescript" , "bun" , "flush","typescript" , "bun" , "flush", "typescript" , "bun" , "flush"],
-    image:"/Hanuman.png"
+    image:"Hanuman.png"
+    },
+    {
+    id:4,
+    name:"snaps",
+    description:"amazing work checking int the besigeest store. take your field and then end it.",
+    livelink:"www.google.com",
+    githublink:"www.google.com",
+    techused:["typescript" , "bun" , "flush","typescript" , "bun" , "flush","typescript" , "bun" , "flush", "typescript" , "bun" , "flush"],
+    image:"Hanuman.png"
+    },
+    {
+    id:5,
+    name:"snaps",
+    description:"amazing work checking int the besigeest store. take your field and then end it.",
+    livelink:"www.google.com",
+    githublink:"www.google.com",
+    techused:["typescript" , "bun" , "flush","typescript" , "bun" , "flush","typescript" , "bun" , "flush", "typescript" , "bun" , "flush"],
+    image:"Hanuman.png"
     }
 ]

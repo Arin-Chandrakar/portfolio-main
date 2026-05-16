@@ -12,7 +12,7 @@ type ProjectInfo = {
 
 export default function ProjectsCard({name,description,livelink,githublink,techused,image}:ProjectInfo){
     return(
-        <div className=" flex flex-col sm:flex-row p-4 bg-amber-50/8 rounded-xl border border-amber-50/10">
+        <div className=" flex flex-col sm:flex-row p-4 bg-amber-50/8 rounded-xl border border-amber-50/10 mb-3">
             
             <div className=" sm:w-70 sm:h-30 w-full mr-3">
                 <img src={`/${image}`} alt=""  className="w-full h-full object-cover rounded-xl"/>

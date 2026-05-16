@@ -73,7 +73,10 @@ export default function Home() {
         {/* Projects */}
         <div className="max-w-3xl mx-auto px-3 sm:px-0 pb-3 pt-8 sm:pb-5 border-b border-amber-50/20">
           <h1 className="font-arimo font-bold sm:text-2xl tracking-wide pb-4">Projects</h1>
-          {Projects.ts}
+          {projects.slice(0,3).map((project)=>(
+            <ProjectsCard key={project.id}
+            {...project}/>
+          ))}
         </div>
         
         

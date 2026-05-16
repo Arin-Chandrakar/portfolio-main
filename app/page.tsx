@@ -1,12 +1,15 @@
+// "use client"
+
 import Collapsibleexpdiv from "@/components/experiencediv";
 import { experience } from "@/info/experience";
 import {projects} from "@/info/projects"
 import DividerComp from "@/components/divider";
 import ProjectsCard from "@/components/projects";
+import { GitHubCalendar } from 'react-github-calendar';
 
 export default function Home() {
   return (
-    <div className="">
+    <>
         <div className="relative w-full ">
                  <img src="/Hanuman.png" className="w-full" alt="" />
                  {/* <video src="/caseycom.mp4" className="w-full object-cover" preload="auto" autoPlay loop muted playsInline/> */}
@@ -54,12 +57,12 @@ export default function Home() {
         
         {/* About */}
         <div className=" max-w-3xl mx-auto mb-10 px-3 sm:px-0 mt-30 md:mt-60">
-          <h1 className="text-x sm:text-2xl font-arimo font-bold tracking-wide pb-4">About</h1>
+          <h1 className=" sm:text-2xl font-arimo font-bold tracking-wide pb-4">About</h1>
           <p className="opacity-80">I like learning, whatever it may be. I love building, books and fc barcelona. I can build full products from frontend to the backend. Doing it for the love of the game.</p>
         </div> 
 
         {/* Work Experience */}
-        <div className="max-w-3xl mx-auto  px-3 sm:px-0 pb-3 sm:pb-5 border-b border-amber-50/20 ">
+        <div className="max-w-3xl sm:w-3xl mx-auto px-3 sm:px-0 pb-3 sm:pb-5 border-b border-amber-50/20 ">
           <h1 className="font-arimo font-bold sm:text-2xl tracking-wide pb-4">Work Experience</h1>
           {experience.map((experience)=>(
             <Collapsibleexpdiv key={experience.id}
@@ -79,6 +82,15 @@ export default function Home() {
           ))}
         </div>
         
+        <DividerComp/>
+
+        {/* Github Contribution */}
+        
+        {/* <GitHubCalendar className=" w-10 p-2 sm:w-full mx-auto mt-16" username="Arin-Chandrakar" /> */}
+        
+
+
+        
         
         
 
@@ -94,6 +106,6 @@ export default function Home() {
 
 
 
-    </div>
+    </>
   );
 }
